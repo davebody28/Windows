@@ -2,13 +2,12 @@
 Configs I need out of the box and so on ...
 
 
-## Windows Activation
+## [Windows Activation](https://github.com/massgravel/Microsoft-Activation-Scripts)
 In PowerShell (run as Admin) type:
 ``` powershell
 irm https://get.activated.win | iex
 ```
 Pops a new window with some options like activated Windows or Office and some more options.
-[git/Microsoft Activation Script](https://github.com/massgravel/Microsoft-Activation-Scripts)
 
 ![PowerShell screenshot](img/IMG_2085.jpg)
 ![PowerShell screenshot](img/IMG_2086.jpg)
