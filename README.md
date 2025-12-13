@@ -5,12 +5,11 @@ Windows config, what config I need on out of the box and so on ...
 ## Windows Activation
 In PowerShell running it as Admin type:
 ``` powershell
-    irm https://get.activated.win | iex
+irm https://get.activated.win | iex
 ```
-![image](img/IMG_2086.HEIC)
 Pops a new window with some options like activated Windows or Office and some more options.
-
-![image](img/IMG_2088.HEIC)
+![PowerShell screenshot](img/IMG_2086.HEIC)
+![PowerShell screenshot](img/IMG_2088.HEIC)
 
 
 ## Windows Defender (deactivation)
