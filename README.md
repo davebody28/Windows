@@ -7,9 +7,9 @@ In PowerShell running it as Admin type:
 ``` powershell
 irm https://get.activated.win | iex
 ```
-Pops a new window with some options like activated Windows or Office and some more options.
-![PowerShell screenshot](img/IMG_2086.HEIC)(<br>)
-![PowerShell screenshot](img/IMG_2088.HEIC)
+Pops a new window with some options like activated Windows or Office and some more options.<br>
+![PowerShell screenshot](img/IMG_2085.jpg)<br>
+![PowerShell screenshot](img/IMG_2086.jpg)
 
 
 ## Windows Defender (deactivation)
