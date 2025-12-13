@@ -16,7 +16,7 @@ Pops a new window with some options like activated Windows or Office and some mo
 ## Windows Defender (deactivation)
 1. Windows + R -> gpedit.msc (run as Admin)
 2. Computer Configuration -> Administrative Templates -> Windows Components -> Microsoft Defender Antivirus -> Turn off Microsoft Defender Antivirus -> Enabled
-3. Windows + R -> regedit.msc (run as Admin)
+3. Windows + R -> regedit (run as Admin)
 4. Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiSpyware (DWORD; Value=1)
 
 
