@@ -1,5 +1,5 @@
 # Windows
-Configs I need on out of the box and so on ...
+Configs I need out of the box and so on ...
 
 
 ## Windows Activation
@@ -14,45 +14,48 @@ Pops a new window with some options like activated Windows or Office and some mo
 
 
 ## Windows Defender (deactivation)
+1. Windows + R -> gpedit.msc (run as Admin)
+2. Computer Configuration -> Administrative Templates -> Windows Components -> Microsoft Defender Antivirus -> Turn off Microsoft Defender Antivirus -> Enabled
+3. Windows + R -> regedit.msc (run as Admin)
+4. Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiSpyware (DWORD; Value=1)
 
 
 
-
-## My-Windows-Config
+## Windows Config
 Some of the programs can be downloaded at [Ninite](https://ninite.com/)
 
 - Programs
     - Coding
-        - [Visual Studio Code]()
-        - [GitHub Desktop]()
-        - [Docker Desktop]()
-        - [PuTTY]()
-        - [Notepad++]()
+        - [Visual Studio Code](https://code.visualstudio.com/download)
+        - [GitHub Desktop](https://desktop.github.com/download/)
+        - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+        - [PuTTY](https://putty.org/index.html)
+        - [Notepad++](https://notepad-plus-plus.org/downloads/)
     - NAS (QNAP)
-        - [QSync]()
-        - [HDP BackUp Agent]()
+        - [QSync](https://www.qnap.com/en/utilities/essentials)
+        - [HDP BackUp Agent](https://www.qnap.com/en/utilities/essentials)
     - Gaming
-        - [Steam]()
-        - [World of Tanks]()
-        - [BitTorrent]()
+        - [Steam](https://store.steampowered.com/about/)
+        - [World of Tanks](https://worldoftanks.eu/pl/game/download/)
+        - [uTorrent](https://www.utorrent.com/desktop/compare/)
     - Photography & Filming
-        - [Adobe Lightroom Classic]()
-        - [Adobe Photoshop]()
-        - [Adobe Premiere Pro]()
-        - [Adobe Media Encoder]()
+        - [Adobe Lightroom Classic](rutracker.org)
+        - [Adobe Photoshop](rutracker.org)
+        - [Adobe Premiere Pro](rutracker.org)
+        - [Adobe Media Encoder](rutracker.org)
     - Audio
-        - [Recordbox]()
-        - [Audacity]()
-        - [yt-dlp]()
+        - [Rekordbox](https://rekordbox.com/en/download/)
+        - [Audacity](https://www.audacityteam.org/download/windows/)
+        - [yt-dlp](https://github.com/yt-dlp/yt-dlp) & [config](config/yt-dlp.md)
     - Ever day use
-        - [MS Office]()
-        - [Firefox]()
-        - [TerraCopy]()
-        - [7Zip]()
-        - [GreenShoot]()
-        - [ShareX]()
-        - [VLC]()
-        - [ImgBurn]()
+        - [MS Office](rutracker.org)
+        - [Firefox](https://www.firefox.com/pl/?utm_campaign=SET_DEFAULT_BROWSER)
+        - [TerraCopy](https://www.codesector.com/teracopy)
+        - [7Zip](https://www.7-zip.org/download.html)
+        - [GreenShoot](https://getgreenshot.org/downloads/)
+        - [ShareX](https://getsharex.com/downloads)
+        - [VLC](https://www.videolan.org/vlc/)
+        - [ImgBurn](https://www.imgburn.com/index.php?act=download)
 
 
 ## Visual Studio Code Config
