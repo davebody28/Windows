@@ -1,5 +1,5 @@
 # Windows
-Configs I need out of the box and so on ...
+Config I need out of the box and so on ...
 
 
 ## [Windows Activation](https://github.com/massgravel/Microsoft-Activation-Scripts)
