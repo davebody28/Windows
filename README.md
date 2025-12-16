@@ -19,7 +19,7 @@ Pops a new window with some options like activated Windows or Office and some mo
 3. Windows + R -> regedit (run as Admin)
 4. Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiSpyware (DWORD; Value=1)
 
-
+## [Windows 11 Debload](https://github.com/Raphire/Win11Debloat)
 
 ## Windows Config
 Some of the programs can be downloaded at [Ninite](https://ninite.com/)
