@@ -20,6 +20,7 @@ Pops a new window with some options like activated Windows or Office and some mo
 4. Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiSpyware (DWORD; Value=1)
 
 ## [Windows 11 Debload](https://github.com/Raphire/Win11Debloat)
+A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
 
 ## Windows Config
 Some of the programs can be downloaded at [Ninite](https://ninite.com/)
