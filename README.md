@@ -3,10 +3,11 @@ Config I need out of the box and so on ...
 
 
 ## [Windows Activation](https://github.com/massgravel/Microsoft-Activation-Scripts)
-In PowerShell (run as Admin) type:
-``` powershell
-irm https://get.activated.win | iex
-```
+In PowerShell type:
+>[!Note]
+> ``` powershell
+> irm https://get.activated.win | iex
+> ```
 Pops a new window with some options like activated Windows or Office and some more options.
 
 ![PowerShell screenshot](img/IMG_2085.jpg)
@@ -14,13 +15,18 @@ Pops a new window with some options like activated Windows or Office and some mo
 
 
 ## Windows Defender (deactivation)
-1. Windows + R -> gpedit.msc (run as Admin)
-2. Computer Configuration -> Administrative Templates -> Windows Components -> Microsoft Defender Antivirus -> Turn off Microsoft Defender Antivirus -> Enabled
-3. Windows + R -> regedit (run as Admin)
-4. Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiSpyware (DWORD; Value=1)
+> [!Note]
+> 1. Windows + R -> gpedit.msc (run as Admin)
+> 2. Computer Configuration -> Administrative Templates -> Windows Components -> Microsoft Defender Antivirus -> Turn off Microsoft Defender Antivirus -> Enabled
+> 3. Windows + R -> regedit (run as Admin)
+> 4. Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiSpyware (DWORD; Value=1)
 
 ## [Windows 11 Debload](https://github.com/Raphire/Win11Debloat)
 A simple, lightweight PowerShell script to remove pre-installed apps, disable telemetry, as well as perform various other changes to customize, declutter and improve your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.
+> [!Note]
+> ``` powershell
+> & ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
+> ```
 
 ## Windows Config
 Some of the programs can be downloaded at [Ninite](https://ninite.com/)
