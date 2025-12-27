@@ -28,6 +28,13 @@ A simple, lightweight PowerShell script to remove pre-installed apps, disable te
 > & ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
 > ```
 
+## [Windows ToolKit](https://github.com/ChrisTitusTech/winutil)
+This utility is a compilation of Windows tasks I perform on each Windows system I use. It is meant to streamline installs, debloat with tweaks, troubleshoot with config, and fix Windows updates. I am extremely picky about any contributions to keep this project clean and efficient.
+> [!Note]
+> ``` powershell
+> irm "https://christitus.com/win" | iex
+> ``
+
 ## Windows Config
 Some of the programs can be downloaded at [Ninite](https://ninite.com/)
 
