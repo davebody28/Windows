@@ -33,7 +33,7 @@ This utility is a compilation of Windows tasks I perform on each Windows system 
 > [!Note]
 > ``` powershell
 > irm "https://christitus.com/win" | iex
-> ``
+> ```
 
 ## Windows Config
 Some of the programs can be downloaded at [Ninite](https://ninite.com/)
