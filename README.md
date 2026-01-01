@@ -8,11 +8,12 @@ In PowerShell type:
 > ``` powershell
 > irm https://get.activated.win | iex
 > ```
+<!--
 Pops a new window with some options like activated Windows or Office and some more options.
 
 ![PowerShell screenshot](img/IMG_2085.jpg)
 ![PowerShell screenshot](img/IMG_2086.jpg)
-
+-->
 
 ## Windows Defender (deactivation)
 > [!Note]
@@ -20,6 +21,13 @@ Pops a new window with some options like activated Windows or Office and some mo
 > 2. Computer Configuration -> Administrative Templates -> Windows Components -> Microsoft Defender Antivirus -> Turn off Microsoft Defender Antivirus -> Enabled
 > 3. Windows + R -> regedit (run as Admin)
 > 4. Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender -> DisableAntiSpyware (DWORD; Value=1)
+
+## [Windows ToolKit](https://github.com/ChrisTitusTech/winutil)
+This utility is a compilation of Windows tasks I perform on each Windows system I use. It is meant to streamline installs, debloat with tweaks, troubleshoot with config, and fix Windows updates. I am extremely picky about any contributions to keep this project clean and efficient.
+> [!Note]
+> ``` powershell
+> irm "https://christitus.com/win" | iex
+> ```
 
 <!--
 ## [Windows 11 Debload](https://github.com/Raphire/Win11Debloat)
@@ -30,13 +38,7 @@ A simple, lightweight PowerShell script to remove pre-installed apps, disable te
 > ```
 -->
 
-## [Windows ToolKit](https://github.com/ChrisTitusTech/winutil)
-This utility is a compilation of Windows tasks I perform on each Windows system I use. It is meant to streamline installs, debloat with tweaks, troubleshoot with config, and fix Windows updates. I am extremely picky about any contributions to keep this project clean and efficient.
-> [!Note]
-> ``` powershell
-> irm "https://christitus.com/win" | iex
-> ```
-
+<!--
 ## Windows Config
 Some of the programs can be downloaded at [Ninite](https://ninite.com/)
 
@@ -72,7 +74,7 @@ Some of the programs can be downloaded at [Ninite](https://ninite.com/)
     - [ShareX](https://getsharex.com/downloads)
     - [VLC](https://www.videolan.org/vlc/)
     - [ImgBurn](https://www.imgburn.com/index.php?act=download)
-
+-->
 
 ## Visual Studio Code Config
 - Plugins
