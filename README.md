@@ -3,7 +3,7 @@ Config I need out of the box and so on ...
 
 
 ## [Windows Activation](https://github.com/massgravel/Microsoft-Activation-Scripts)
-In PowerShell type:
+Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.
 >[!Note]
 > ``` powershell
 > irm https://get.activated.win | iex
@@ -76,8 +76,9 @@ Some of the programs can be downloaded at [Ninite](https://ninite.com/)
     - [ImgBurn](https://www.imgburn.com/index.php?act=download)
 -->
 
-## Visual Studio Code Config
-- Plugins
-    - 
-- Themes
-    - 
+## Visual Studio Code Config (Plugins)
+- [Git & GitHub Extension Pack (Vinícius Pereira)](https://marketplace.visualstudio.com/items?itemName=vinirossa.vscode-gitandgithub-pack)
+- [Useful Tools Extension Pack (Vinícius Pereira)](https://marketplace.visualstudio.com/items?itemName=vinirossa.vscode-usefultools-pack)
+- [Web Development Extension Pack (Vinícius Pereira)](https://marketplace.visualstudio.com/items?itemName=vinirossa.vscode-webdev-pack)
+- [Markdown Preview Github Styling (Matt Bierner)](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
+- [WebDeveloperPack (JimmyMebrahtu)](https://marketplace.visualstudio.com/items?itemName=JimmyMeb.webdeveloperpack)
