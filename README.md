@@ -78,7 +78,6 @@ Some of the programs can be downloaded at [Ninite](https://ninite.com/)
 
 ## Visual Studio Code Config (Plugins)
 - [Git & GitHub Extension Pack (Vinícius Pereira)](https://marketplace.visualstudio.com/items?itemName=vinirossa.vscode-gitandgithub-pack)
-- [Useful Tools Extension Pack (Vinícius Pereira)](https://marketplace.visualstudio.com/items?itemName=vinirossa.vscode-usefultools-pack)
 - [Web Development Extension Pack (Vinícius Pereira)](https://marketplace.visualstudio.com/items?itemName=vinirossa.vscode-webdev-pack)
 - [Markdown Preview Github Styling (Matt Bierner)](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles)
 - [WebDeveloperPack (JimmyMebrahtu)](https://marketplace.visualstudio.com/items?itemName=JimmyMeb.webdeveloperpack)
